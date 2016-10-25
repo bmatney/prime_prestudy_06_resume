@@ -1,0 +1,74 @@
+/*main.css*/
+body, h1, h2, h3, h4, h5, p, ul{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  }
+  body{
+    background-color: #E0E0E0;
+  }
+summary{
+  background-color: #00695C;
+  color: #ffffff;
+  width: 350px;
+  text-align: center;
+  float: left;
+  padding: 20px 30px 160px 30px;
+  }
+section{
+  background-size: 100%;
+  text-align: left;
+  width: 800px;
+  border-style: outset;
+  margin: 20px 0px 0px 30px;
+  padding: 10px;
+  background-color: #EEEEEE;
+  display: inline-block;
+  }
+section p{
+  display: inline;
+  float: right;
+  }
+section img{
+  display: inline;
+  margin: 5px 100px 5px 100px;
+  }
+section li{
+  margin-left: 10px;
+  }
+#brianOutside{
+  float: none;
+  }
+summary p{
+  margin-bottom: 30px;
+  padding: 2px;
+}
+summary img{
+  float: left;
+  }
+h1{
+  font-size: 48px;
+  padding: 10px;
+  margin-bottom: 24px;
+  }
+h3{
+  margin-top: 8px;
+  }
+h4{
+  margin: 2px 0 0 5px;
+}
+a{
+  color: inherit;
+  }
+#resume{
+  display: none;
+}
+#button img{
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin:auto;
+}
